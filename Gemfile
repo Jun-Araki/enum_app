@@ -30,7 +30,9 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem "net-smtp"
 gem 'rails-i18n', '~> 6.0'
 gem 'enum_help'
-
+gem 'activeadmin'
+gem 'devise'
+gem 'devise-i18n'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
